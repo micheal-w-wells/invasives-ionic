@@ -1,49 +1,49 @@
 {
-                    "activityType": {
-			"ui:autofocus": true
-                    },
-                    "activityTypeData": {
-			"ui:autofocus": true
-                    },
-                    "activitySubType": {
-			"ui:autofocus": true
-                    },
-                    "activitySubTypeData": {
-			"ui:autofocus": true
-                    },
-                    "date": {
-			"ui:autofocus": true
-                    },
-                    "locationAndGeometry": {
-                        "anchorPointY": {
-			"ui:autofocus": true
-                        },
-                        "anchorPointX": {
-			"ui:autofocus": true
-                        },
-                        "area": {
-			"ui:autofocus": true
-                        },
-                        "jurisdiction": {
-			"ui:autofocus": true
-                        },
-                        "agency": {
-			"ui:autofocus": true
-                        },
-                        "observer1FirstName": {
-			"ui:autofocus": true
-                        },
-                        "observer1LastName": {
-			"ui:autofocus": true
-                        },
-                        "locationComment": {
-			"ui:autofocus": true
-                        },
-                        "generalComment": {
-			"ui:autofocus": true
-                        },
-                        "photoTaken": {
-			"ui:autofocus": true
-                        }
-                      }
-                    }
+    "activityType": {
+        "ui:autofocus": true
+    },
+    "activityTypeData": {
+        "ui:autofocus": true
+    },
+    "activitySubType": {
+        "ui:autofocus": true
+    },
+    "activitySubTypeData": {
+        "ui:autofocus": true
+    },
+    "date": {
+        "ui:autofocus": true
+    },
+    "locationAndGeometry": {
+        "anchorPointY": {
+            "ui:autofocus": true
+        },
+        "anchorPointX": {
+            "ui:autofocus": true
+        },
+        "area": {
+            "ui:autofocus": true
+        },
+        "jurisdiction": {
+            "ui:autofocus": true
+        },
+        "agency": {
+            "ui:autofocus": true
+        },
+        "observer1FirstName": {
+            "ui:autofocus": true
+        },
+        "observer1LastName": {
+            "ui:autofocus": true
+        },
+        "locationComment": {
+            "ui:autofocus": true
+        },
+        "generalComment": {
+            "ui:autofocus": true
+        },
+        "photoTaken": {
+            "ui:autofocus": true
+        }
+    }
+}
