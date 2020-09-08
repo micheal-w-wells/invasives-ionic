@@ -321,65 +321,83 @@
                   ],
                   "properties": {
                     "activityType": {
-                      "type": "string"
+                      "type": "string",
+                      "title": "Activity Type"
                     },
                     "activityTypeData": {
-                      "type": "object"
+                      "type": "object",
+                      "title": "Activity Type Data"
                     },
                     "activitySubType": {
-                      "type": "string"
+                      "type": "string",
+                      "title": "Activity Sub-Type"
                     },
                     "activitySubTypeData": {
-                      "type": "object"
+                      "type": "object",
+                      "title": "Activity Sub-Type Data"
                     },
                     "date": {
                       "type": "string",
+                      "title": "Date",
                       "description": "Date in YYYY-MM-DD format"
                     },
                     "locationAndGeometry": {
                       "type": "object",
                       "additionalProperties": false,
                       "description": "Location and geometry information",
+                      "title": "Location and Geometry",
                       "properties": {
                         "anchorPointY": {
-                          "type": "number"
+                          "type": "number",
+                          "title": "Anchor Point Y"
                         },
                         "anchorPointX": {
-                          "type": "number"
+                          "type": "number",
+                          "title": "Anchor Point X"
                         },
                         "area": {
-                          "type": "number"
+                          "type": "number",
+                          "title": "Area"
                         },
                         "geometry": {
                           "type": "object",
-                          "description": "A geoJSON object"
+                          "description": "A geoJSON object",
+                          "title": "Geometry"
                         },
                         "jurisdiction": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "Jurisdiction"
                         },
                         "agency": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "Agency"
                         },
                         "observer1FirstName": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "First Name"
                         },
                         "observer1LastName": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "Last Name"
                         },
                         "locationComment": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "Location Comment"
                         },
                         "generalComment": {
-                          "type": "string"
+                          "type": "string",
+                          "title": "General Comment"
                         },
                         "photoTaken": {
-                          "type": "boolean"
+                          "type": "boolean",
+                          "title": "Photo Taken"
                         }
                       }
                     },
                     "media": {
                       "type": "array",
                       "description": "An array of media objects to upload and associate to the activity record",
+                      "title": "Media",
                       "items": {
                         "type": "object",
                         "additionalProperties": false,
@@ -389,13 +407,15 @@
                         ],
                         "properties": {
                           "fileName": {
-                            "type": "string"
+                            "type": "string",
+                            "title": "File Name"
                           },
                           "encodedFile": {
                             "type": "string",
                             "format": "base64",
                             "description": "A Data URL base64 encoded image",
-                            "example": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/4REy..."
+                            "example": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/4REy...",
+                            "title": "File Content"
                           }
                         }
                       }
