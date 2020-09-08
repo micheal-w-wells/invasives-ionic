@@ -3,15 +3,6 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
-import {  createRxDatabase, addRxPlugin } from 'rxdb';
-                                                  // create databas
-
-
-addRxPlugin(require('pouchdb-adapter-cordova-sqlite'));
-const database =  createRxDatabase({
-    name: 'mydatabase',
-    adapter: 'cordova-sqlite' // the name of your adapter
-});
 
 const Tab1: React.FC = () => {
   return (
